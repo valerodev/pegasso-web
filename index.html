@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pegasso | Official Site</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="inicio" class="cabecera">
+        <a href="index.html" class="enlace-marca">
+            <div class="contenedor-marca">
+                <img src="assets/img/logo.png" alt="Logo" class="imagen-logo">
+                <img src="assets/img/lettering.png" alt="Letras" class="imagen-letras">
+            </div>
+        </a>
+
+        <input type="checkbox" id="control-menu">
+        <label for="control-menu" class="boton-hamburguesa">
+            <div class="barras">
+                <span class="linea arriba"></span>
+                <span class="linea abajo"></span>
+            </div>
+        </label>
+
+        <nav class="pantalla-menu">
+            <div class="contenedor-menu-total">
+                <div class="cuadrado-menu">
+                    <a href="#inicio" class="item-menu">PEGASSO</a>
+                    <a href="#technology" class="item-menu">TECHNOLOGY</a>
+                    <a href="#about-us" class="item-menu">ABOUT US</a>
+                    <a href="#gallery" class="item-menu">COLLECTION</a>
+                </div>
+
+                <aside class="aside-menu">
+                    <p class="titulo-aside">MORE</p>
+                    <a href="#">Nuestra Historia</a>
+                    <a href="#">Prensa y Noticias</a>
+                    <a href="#">Sostenibilidad</a>
+                    <a href="#">Red de Concesionarios</a>
+                </aside>
+            </div>
+        </nav>
+    </header>
+
+    <main> <section class="hero degradado-final">
+            <img src="assets/img/hero.png" alt="Hero 1">
+        </section>
+
+        <div class="salto-mediano"></div>
+
+        <section class="hero degradado-doble">
+            <img src="assets/img/hero2.jpg" alt="Hero 2">
+        </section>
+
+        <div id="technology" class="salto-mediano"></div>
+
+        <section class="bloque-cartas degradado-final">
+            <div class="columna">
+                <h2>DREAM</h2>
+                <article class="carta">
+                    <img src="assets/img/wheel.png" alt="Llanta">
+                    <img src="assets/img/wheelHover.png" alt="Detalle">
+                </article>
+            </div>
+
+            <div class="columna">
+                <h2>DARE</h2>
+                <article class="carta">
+                    <img src="assets/img/carCenital.png" alt="Cenital">
+                    <img src="assets/img/chassis.png" alt="Chasis">
+                </article>
+            </div>
+
+            <div class="columna">
+                <h2>BE</h2>
+                <article class="carta">
+                    <img src="assets/img/engineGeneral.png" alt="Motor">
+                    <img src="assets/img/engineHover.png" alt="Detalle motor">
+                </article>
+            </div>
+        </section>
+
+        <section id="about-us" class="seccion-about-us">
+            <h2 class="titulo-grande pos-1">BEYOND</h2>
+            <h2 class="titulo-grande pos-2">THE</h2>
+            <h2 class="titulo-grande pos-3">LINE</h2>
+
+            <img src="assets/img/workers.png" alt="Trabajadores" class="foto-izquierda">
+            <img src="assets/img/viena.png" alt="Escudo" class="foto-escudo">
+
+            <div class="logo-inferior">
+                <img src="assets/img/logoNegro.png" alt="Logo" class="imagen-logo">
+                <img src="assets/img/letteringNegro.png" alt="Letras" class="imagen-letras">
+            </div>
+
+            <p class="parrafo texto-izq">
+                Lorem ipsum dolor sit amet consectetur adipiscing, elit vitae venenatis nulla aenean nunc,
+            nec primis rhoncus fringilla cras. Donec dictum fermentum porta tortor congue cursus facilisis
+            velit ultricies semper blandit accumsan eleifend ante, diam tellus pretium mattis luctus
+            ridiculus sodales mus quam id feugiat senectus. Lorem ipsum dolor sit amet consectetur adipiscing, 
+            elit vitae venenatis nulla aenean nunc, nec primis rhoncus fringilla cras. Donec dictum fermentum 
+            porta tortor congue cursus facilisis velit ultricies semper blandit accumsan eleifend ante, 
+            diam tellus pretium mattis luctus.
+            </p>
+        </section>
+
+        <section id="gallery" class="seccion-galeria">
+            <h2 class="titulo-seccion">COLLECTION</h2>
+            <div class="mosaico">
+                <figure class="foto item-1">
+                    <video controls class="video-galeria">
+                        <source src="assets/video/promo-pegasso.mp4" type="video/mp4">
+                        Tu navegador no soporta vídeos.
+                    </video>
+                </figure>
+                <figure class="foto item-2">
+                    <img src="assets/img/car-upfront.avif" alt="Pegasso Detail 2">
+                </figure>
+                <figure class="foto item-3">
+                    <img src="assets/img/car-side.avif" alt="Pegasso Detail 3">
+                </figure>
+                <figure class="foto item-4">
+                    <img src="assets/img/car-back.avif" alt="Pegasso Detail 4">
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <script src="close-menu.js"></script>
+</body>
+</html>
