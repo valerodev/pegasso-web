@@ -10,16 +10,12 @@ This project was developed as part of my first year **Web Application Developmen
 * **Layout & Layering:** I practiced using `z-index` layers and CSS masks (`mask-image`) to create gradient effects directly on images without needing external editing.
 * **3D Interactions:** I implemented Z-axis transforms on the product cards. My goal was to understand how perspectives and pseudo-elements (`::before`, `::after`) work together to create visual depth.
 * **Fluidity:** I focused on making transitions as lightweight as possible by using properties like `transform` and `scale`, which the browser processes more efficiently to ensure a smoother experience.
-
-## 🛠️ Stack & Learning
-
 * **HTML5 & CSS3:** Focused on writing clean, semantic markup. I used **Flexbox** and **CSS Grid** to practice building responsive layouts.
-* **Typography:** Integration of Google Fonts, exploring how to create a legible contrast between serif and sans-serif styles.
 
 ---
 
-### ⚠️ Disclaimer
-Most of the photographic assets and AI prompts used in this project are based on the **Czinger 21C** hypercar. All rights to the original car design belong to Czinger Vehicles. This project is for educational and portfolio purposes only.
+### ⚠️
+Most of the photographic assets and AI prompts used in this project are based on the **Czinger 21C** hypercar. This project is for educational and portfolio purposes only.
 
 ---
 Developed by **valerodev** | 2026
