@@ -2,7 +2,7 @@
 
 This project was developed as part of my first year **Web Application Development Degree (DAW)** studies. All the interface design, layout structure, and visual composition were created by me from scratch, focusing on applying the technical concepts learned during the year.
 
-![Project Preview](./video/preview.gif)
+![Project Preview](.assets/video/preview.gif)
 
 ## 💎 Technical Breakdown (What I applied)
 
