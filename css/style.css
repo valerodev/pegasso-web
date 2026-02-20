@@ -255,7 +255,7 @@ body {
 }
 
 .foto-izquierda {
-    width: 550px;
+    width: 450px;
     margin-left: 100px;
     z-index: 2;
 }
@@ -296,7 +296,7 @@ body {
 
 .parrafo {
     font-family: 'Times New Roman', serif;
-    font-size: 32px;
+    font-size: 24px;
     width: 80%;
     align-self: flex-end;
     margin-right: 14%;
@@ -321,38 +321,53 @@ body {
     align-items: center;
 }
 
-/* Galeria */
+/* Galeria corregida */
 .seccion-galeria {
-  padding: 100px 80px;
+  padding: 80px 5%;
   background-color: black;
+  color: white;
 }
 
 .titulo-seccion {
-  font-size: 60px;
+  font-size: clamp(30px, 5vw, 60px); 
   text-align: center;
   margin-bottom: 50px;
+  text-transform: uppercase;
 }
 
 .mosaico {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: 300px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+  grid-auto-rows: 350px;
   gap: 20px;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
-.foto img {
+.foto {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid #333;
+}
+
+.foto img, 
+.foto video {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
   filter: grayscale(100%);
-  transition: 0.8s;
+  transition: transform 0.6s ease, filter 0.6s ease;
 }
 
-.foto:hover img {
+.foto:hover img,
+.foto:hover video {
   filter: grayscale(0%);
   transform: scale(1.1);
 }
-
 /* Grid de la galeria */
 .item-1 { grid-column: span 2; grid-row: span 2; }
 .item-2 { grid-column: span 2; }
