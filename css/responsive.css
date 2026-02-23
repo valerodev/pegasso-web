@@ -4,6 +4,10 @@
         width: 100%;
     }
 
+    .contenedor-marca {
+        top: 5%;
+    }
+
     .hero {
         height: auto; 
     }
@@ -75,27 +79,35 @@
         justify-content: center;
     }
 
+    .contenedor-menu-total {
+        flex-direction: column;
+        text-align: center;
+    }
+
     .cuadrado-menu {
         width: 100%;
-        padding: 20px;
-        gap: 20px;
         justify-content: center;
-        margin-top: 60px;
+        gap: 20px;
     }
 
     .item-menu {
-        font-size: 32px;
+        font-size: 40px;
         text-align: center;
     }
 
     .aside-menu {
-        width: 100%;
         position: static;
-        margin-top: 30px;
+        width: 100%;
         text-align: center;
+        margin-top: 40px;
     }
 
     .aside-menu a {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .titulo-aside {
         text-align: center;
     }
 
