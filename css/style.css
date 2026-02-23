@@ -1,141 +1,387 @@
-<!DOCTYPE html>
-<html lang="en">
+html {
+  scroll-behavior: smooth;
+}
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pegasso</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/responsive.css">
-  <link rel="icon" type="image/png" href="assets/img/favicon.png">
-</head>
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
 
-<body>
+.salto-mediano {
+  height: 150px;
+}
 
-  <header id="inicio" class="cabecera">
-    <a href="index.html" class="enlace-marca">
-      <div class="contenedor-marca">
-        <img src="assets/img/logo.png" alt="Logo" class="imagen-logo">
-        <img src="assets/img/lettering.png" alt="Letras" class="imagen-letras">
-      </div>
-    </a>
+/* Logos de arriba */
+.contenedor-marca {
+  position: absolute;
+  top: 70px;
+  left: 90px;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+}
 
-    <input type="checkbox" id="control-menu">
-    <label for="control-menu" class="boton-hamburguesa">
-      <div class="barras">
-        <span class="linea arriba"></span>
-        <span class="linea abajo"></span>
-      </div>
-    </label>
+.imagen-logo {
+  width: 60px;
+}
 
-    <nav class="pantalla-menu">
-      <div class="contenedor-menu-total">
-        <div class="cuadrado-menu">
-          <a href="#inicio" class="item-menu">PEGASSO</a>
-          <a href="#technology" class="item-menu">TECHNOLOGY</a>
-          <a href="#about-us" class="item-menu">ABOUT US</a>
-          <a href="#gallery" class="item-menu">COLLECTION</a>
-        </div>
+.imagen-letras {
+  width: 120px;
+  position: relative;
+  top: 2px;
+  left: -11px;
+}
 
-        <aside class="aside-menu">
-          <p class="titulo-aside">MORE</p>
-          <a href="#">Nuestra Historia</a>
-          <a href="#">Prensa y Noticias</a>
-          <a href="#">Sostenibilidad</a>
-          <a href="#">Red de Concesionarios</a>
-        </aside>
-      </div>
-    </nav>
-  </header>
+/* Menu Hamburguesa */
+#control-menu {
+  display: none;
+}
 
-  <main>
-    <section class="hero degradado-final">
-      <img src="assets/img/hero.webp" alt="Hero 1">
-    </section>
+.boton-hamburguesa {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  z-index: 1001;
+  cursor: pointer;
+}
 
-    <section class="hero degradado-doble">
-      <img src="assets/img/car-upfront.webp" alt="Hero 2">
-    </section>
+.barras {
+  width: 30px;
+  height: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-    <div id="technology" class="salto-mediano"></div>
+.linea {
+  width: 100%;
+  height: 2px;
+  background-color: #e3e3e3;
+  transition: 0.3s ease;
+}
 
-    <section class="bloque-cartas degradado-final">
-      <div class="columna">
-        <h2>DREAM</h2>
-        <article class="carta">
-          <img src="assets/img/wheel.webp" alt="Llanta">
-          <img src="assets/img/wheelHover.webp" alt="Detalle">
-        </article>
-      </div>
+/* Transformacion a X */
+#control-menu:checked + .boton-hamburguesa .arriba {
+  transform: rotate(-45deg) translateY(10px);
+}
 
-      <div class="columna">
-        <h2>DARE</h2>
-        <article class="carta">
-          <img src="assets/img/carCenital.webp" alt="Cenital">
-          <img src="assets/img/chassis.webp" alt="Chasis">
-        </article>
-      </div>
+#control-menu:checked + .boton-hamburguesa .abajo {
+  transform: rotate(45deg) translateY(-10px);
+}
 
-      <div class="columna">
-        <h2>BE</h2>
-        <article class="carta">
-          <img src="assets/img/engineGeneral.webp" alt="Motor">
-          <img src="assets/img/engineHover.webp" alt="Detalle motor">
-        </article>
-      </div>
-    </section>
+/* Fondo del menu */
+.pantalla-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #687C7B;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  transform: scale(0);
+  transform-origin: top left;
+  border-bottom-right-radius: 70%;
+  visibility: hidden;
+  transition: all 0.6s ease;
+  z-index: 1000;
+}
 
-    <div class="salto-mediano"></div>
+#control-menu:checked ~ .pantalla-menu {
+  transform: scale(1);
+  border-bottom-right-radius: 0;
+  visibility: visible;
+}
 
-    <section id="about-us" class="seccion-about-us">
-      <img src="assets/img/workers.webp" alt="Trabajadores" class="foto-izquierda">
+.contenedor-menu-total {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
 
-    <div class="contenedor-derecho-info">
-      <div class="bloque-titulo">
-        <h1 class="titulo-grande pos-1">BEYOND</h1>
-        <h1 class="titulo-grande pos-2">THE</h1>
-        <h1 class="titulo-grande pos-3">LINE</h1>
-      </div>
-      <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque, 
-        nibh in commodo ornare, diam ligula varius tortor, in sagittis ipsum nunc vel justo. 
-        In suscipit magna dictum tincidunt pellentesque. In aliquam lorem sit amet risus pharetra eleifend a lacinia arcu. 
-        Aliquam vitae mauris blandit, tincidunt leo et, ullamcorper mi. Fusce sagittis tortor ac venenatis lobortis. 
-        Integer nec arcu luctus, ornare lacus vel, ultrices nulla. Sed feugiat consectetur iaculis. Vivamus vestibulum mauris cursus velit accumsan imperdiet. 
-        Fusce ut lectus erat. Phasellus lacinia risus sapien, eget finibus magna porttitor non.
-      </p>
-    </div>
+.cuadrado-menu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  gap: 60px 30px;
+}
 
-      <img src="assets/img/viena.webp" alt="Escudo" class="foto-escudo">
+.item-menu {
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  font-size: 80px;
+  font-weight: bold;
+  letter-spacing: 6px;
+  transition: 0.5s;
+}
 
-      <div class="logo-inferior">
-        <img src="assets/img/logoNegro.png" alt="Logo" class="imagen-logo">
-        <img src="assets/img/letteringNegro.png" alt="Letras" class="imagen-letras">
-      </div>
-    </section>
+.item-menu:hover {
+  opacity: 0.4;
+  transform: translateX(10px);
+}
 
-    <section id="gallery" class="seccion-galeria">
-      <h2 class="titulo-seccion">COLLECTION</h2>
-      <div class="mosaico">
-        <figure class="foto item-1">
-          <video controls class="video-galeria">
-            <source src="assets/video/promo-pegasso.mp4" type="video/mp4">
-            Tu navegador no soporta vídeos.
-          </video>
-        </figure>
-        <figure class="foto item-2">
-          <img src="assets/img/car-upfront.webp" alt="Pegasso front">
-        </figure>
-        <figure class="foto item-3">
-          <img src="assets/img/car-side.webp" alt="Pegasso side">
-        </figure>
-        <figure class="foto item-4">
-          <img src="assets/img/car-back.webp" alt="Pegasso back">
-        </figure>
-      </div>
-    </section>
-  </main>
 
-  <script src="js/close-menu.js"></script>
-</body>
+/* Texto de la derecha en el menu */
+.aside-menu {
+    position: fixed;
+    bottom: 40px;
+    right: 80px;
+    text-align: right;
+    width: 250px;
+  }
 
-</html>
+.titulo-aside {
+    color: white;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 10px;
+    opacity: 0.8;
+}
+
+.aside-menu a {
+    display: block;
+    color: #c0c0c0;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 12px;
+    transition: 0.5s;
+    opacity: 0.6;
+}
+
+.aside-menu a:hover {
+    color: white;
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+/* Secciones de imagen */
+.hero {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Efectos de degradado */
+.degradado-final {
+  mask-image: linear-gradient(black 90%, transparent);
+}
+
+.degradado-doble {
+  mask-image: linear-gradient(to bottom, transparent 0%, black 20%, black 80%, transparent 100%);
+}
+
+/* Seccion de productos */
+.bloque-cartas {
+    min-height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 80px;
+}
+
+.columna {
+    flex: 1;
+    text-align: center;
+}
+
+.columna h2 {
+    font-size: 40px;
+    opacity: 0.8;
+    margin-top: 20px;
+}
+
+.carta {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    transition: all 0.4s ease;
+}
+
+.carta img:first-child {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.carta img:last-child {
+    position: absolute;
+    width: 250px;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(10%);
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+
+.carta:hover {
+    transform: perspective(250px) rotateX(5deg) translateY(-3%) translateZ(0);
+}
+
+.carta::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, transparent 10%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 1) 95%);
+    opacity: 0;
+    transition: all 0.5s ease;
+    border-radius: 4px;
+}
+
+.carta:hover::before {
+    opacity: 1;
+}
+
+.carta:hover img:last-child {
+    opacity: 1;
+}
+
+/* About us */
+.seccion-about-us {
+    width: 100%;
+    height: 100vh;
+    background-color: #fdf8f0;
+    position: relative;
+    color: black;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.foto-izquierda {
+    width: 450px;
+    margin-left: 100px;
+    z-index: 2;
+}
+
+.contenedor-derecho-info {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 80px;
+    z-index: 1;
+}
+
+.bloque-titulo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.titulo-grande {
+    font-family: Garamond, serif;
+    font-size: clamp(40px, 8vw, 80px);
+    line-height: 0.9;
+    margin: 0;
+    color: black;
+    text-transform: uppercase;
+}
+
+.pos-1 { align-self: flex-start; margin-left: 0; }
+.pos-2 { align-self: flex-start; margin-left: 40%; }
+.pos-3 { align-self: flex-start; margin-left: 65%; } 
+
+.parrafo {
+    font-family: 'Times New Roman', serif;
+    font-size: 24px;
+    width: 80%;
+    align-self: flex-end;
+    margin-right: 14%;
+    text-align: justify;
+    line-height: 1.4;
+    color: black;
+}
+
+.foto-escudo {
+    width: 80px;
+    position: absolute;
+    top: 40px;
+    right: 60px;
+    z-index: 3;
+}
+
+.logo-inferior {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* --- SECCIÓN GALERÍA --- */
+.seccion-galeria {
+    padding: 60px;
+    background-color: black;
+}
+
+.titulo-seccion {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.mosaico {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 400px 200px;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.foto {
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #111;
+}
+
+.foto img, 
+.video-galeria {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.item-1 { 
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+
+.item-2, .item-3, .item-4 {
+    grid-row: 2;
+}
+
+.foto img {
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+.foto:hover img {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
