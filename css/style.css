@@ -1,12 +1,19 @@
-html {
-  scroll-behavior: smooth;
+:root {
+    --primary-bg: #000000;
+    --accent-bg: #fdf8f0;
+    --text-dark: #000000;
+    --text-light: #ffffff;
+    --brand-font: 'Garamond', serif;
+    --body-font: 'Arial', sans-serif;
+    --spacing: clamp(20px, 5vw, 100px);
 }
 
 body {
-  margin: 0;
-  background-color: black;
-  color: white;
-  font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: var(--primary-bg);
+    color: var(--text-light);
+    font-family: var(--body-font);
+    overflow-x: hidden;
 }
 
 .salto-mediano {
@@ -16,8 +23,8 @@ body {
 /* Logos de arriba */
 .contenedor-marca {
   position: absolute;
-  top: 70px;
-  left: 90px;
+  top: 20%;
+  left: 7%;
   display: flex;
   align-items: center;
   z-index: 10;
@@ -62,7 +69,7 @@ body {
   transition: 0.3s ease;
 }
 
-/* Transformacion a X */
+/* X */
 #control-menu:checked + .boton-hamburguesa .arriba {
   transform: rotate(-45deg) translateY(10px);
 }
@@ -165,7 +172,6 @@ body {
 .hero {
   width: 100%;
   height: 100vh;
-  overflow: hidden;
 }
 
 .hero img {
@@ -185,19 +191,19 @@ body {
 
 /* Seccion de productos */
 .bloque-cartas {
-    min-height: 20vh;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: var(--spacing);
 }
 
 .columna {
-    flex: 1;
-    text-align: center;
+    flex: 1 1 300px;
+    max-width: 400px;
 }
-
 .columna h2 {
+    text-align: center;
     font-size: 40px;
     opacity: 0.8;
     margin-top: 20px;
@@ -253,65 +259,55 @@ body {
 
 /* About us */
 .seccion-about-us {
-    width: 100%;
-    height: 100vh;
-    background-color: #fdf8f0;
-    position: relative;
-    color: black;
-    display: flex;
+    position:relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    min-height: 100vh;
+    background-color: var(--accent-bg);
+    color: var(--text-dark);
     align-items: center;
-    overflow: hidden;
+    gap: var(--spacing);
+    padding: var(--spacing);
+    box-sizing: border-box;
 }
 
 .foto-izquierda {
-    width: 450px;
-    margin-left: 100px;
-    z-index: 2;
+    width: 100%;
+    max-width: 500px;
+    justify-self: center;
+    object-fit: cover;
 }
 
 .contenedor-derecho-info {
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 60%;
-    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    padding-top: 80px;
-    z-index: 1;
+    gap: 20px;
 }
 
 .bloque-titulo {
     display: flex;
     flex-direction: column;
-    margin-top: 70px;
-    margin-left: 100px;
-    margin-bottom: 30px;
 }
 
 .titulo-grande {
-    font-family: Garamond, serif;
-    font-size: clamp(40px, 8vw, 80px);
-    line-height: 0.9;
-    margin: 0;
-    color: black;
+    font-family: var(--brand-font);
+    font-size: clamp(3rem, 10vw, 5rem);
+    line-height: 0.8;
     text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
 }
 
-.pos-1 { align-self: flex-start; margin-left: 0; }
-.pos-2 { align-self: flex-start; margin-left: 40%; }
-.pos-3 { align-self: flex-start; margin-left: 65%; } 
+.pos-1 { align-self: flex-start; }
+.pos-2 { align-self: center; margin-left: 23.5%;}
+.pos-3 { align-self: flex-end; }
 
 .parrafo {
     font-family: 'Times New Roman', serif;
-    font-size: 24px;
-    width: 80%;
-    align-self: flex-end;
-    margin-right: 14%;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    max-width: 50ch;
     text-align: justify;
-    line-height: 1.4;
-    color: black;
 }
 
 .foto-escudo {
@@ -345,11 +341,9 @@ body {
 
 .mosaico {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 400px 200px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
-    max-width: 900px;
-    margin: 0 auto;
+    padding: 20px;
 }
 
 .foto {
