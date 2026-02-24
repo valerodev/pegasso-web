@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="assets/img/galaxy-show.webp" alt="Project View On a Galaxy" width="15%">
-</p>
+
 
 <h1 align="center">🏎️ Pegasso High Luxury Car Web</h1>
 
@@ -10,6 +8,10 @@
 
 <p align="center">
   <img src="assets/video/preview.gif" alt="Project Preview" width="90%">
+</p>
+
+<p align="center">
+  <img src="assets/img/galaxy-show.webp" alt="Project View On a Galaxy" width="15%">
 </p>
 
 
