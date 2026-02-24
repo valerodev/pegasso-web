@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pegasso</title>
+    <title>Pegasso | High-Performance Engineering</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
@@ -12,11 +12,11 @@
 
 <body>
 
-    <header id="inicio" class="cabecera">
+    <header id="home" class="cabecera">
         <a href="index.html" class="enlace-marca">
             <div class="contenedor-marca">
-                <img src="assets/img/logo.png" alt="Logo" class="imagen-logo">
-                <img src="assets/img/lettering.png" alt="Letras" class="imagen-letras">
+                <img src="assets/img/logo.png" alt="Pegasso Logo" class="imagen-logo">
+                <img src="assets/img/lettering.png" alt="Pegasso Lettering" class="imagen-letras">
             </div>
         </a>
 
@@ -31,7 +31,7 @@
         <nav class="pantalla-menu">
             <div class="contenedor-menu-total">
                 <div class="cuadrado-menu">
-                    <a href="#inicio" class="item-menu">PEGASSO</a>
+                    <a href="#home" class="item-menu">HOME</a>
                     <a href="#technology" class="item-menu">TECHNOLOGY</a>
                     <a href="#about-us" class="item-menu">ABOUT US</a>
                     <a href="#gallery" class="item-menu">COLLECTION</a>
@@ -39,10 +39,10 @@
 
                 <aside class="aside-menu">
                     <p class="titulo-aside">MORE</p>
-                    <a href="#">Prensa y Noticias</a>
-                    <a href="#">Who we are</a>
-                    <a href="#">Contact</a>
-                    <a href="#">Work with us</a>
+                    <a href="#news">News & Press</a>
+                    <a href="#who-we-are">Who we are</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#careers">Work with us</a>
                 </aside>
             </div>
         </nav>
@@ -50,37 +50,38 @@
 
     <main>
         <section class="hero degradado-final">
-            <img src="assets/img/hero.webp" alt="Hero 1">
+            <picture>
+                <source srcset="assets/img/hero-mobile.jpg" media="(max-width: 900px)">
+                <img src="assets/img/hero.webp" alt="Pegasso Main Concept Car">
+            </picture>
         </section>
 
         <section class="hero degradado-doble segundoHero">
-            <img src="assets/img/car-upfront.webp" alt="Hero 2">
+            <img src="assets/img/car-upfront.webp" alt="Pegasso Front View">
         </section>
 
-        <div class="salto-mediano"></div>
-
-        <section class="bloque-cartas degradado-final">
+        <section id="technology" class="bloque-cartas degradado-final">
             <div class="columna">
                 <h2>DREAM</h2>
                 <article class="carta">
-                    <img src="assets/img/wheel.webp" alt="Llanta">
-                    <img src="assets/img/wheelHover.webp" alt="Detalle">
+                    <img src="assets/img/wheel.webp" alt="Alloy Wheel Detail">
+                    <img src="assets/img/wheelHover.webp" alt="Brake System Detail" class="img-hover">
                 </article>
             </div>
 
             <div class="columna">
                 <h2>DARE</h2>
                 <article class="carta">
-                    <img src="assets/img/carCenital.webp" alt="Cenital">
-                    <img src="assets/img/chassis.webp" alt="Chasis">
+                    <img src="assets/img/carCenital.webp" alt="Vehicle Top View">
+                    <img src="assets/img/chassis.webp" alt="Carbon Fiber Chassis" class="img-hover">
                 </article>
             </div>
 
             <div class="columna">
                 <h2>BE</h2>
                 <article class="carta">
-                    <img src="assets/img/engineGeneral.webp" alt="Motor">
-                    <img src="assets/img/engineHover.webp" alt="Detalle motor">
+                    <img src="assets/img/engineGeneral.webp" alt="V8 Engine Block">
+                    <img src="assets/img/engineHover.webp" alt="Engine Engineering Detail" class="img-hover">
                 </article>
             </div>
         </section>
@@ -94,35 +95,36 @@
                             <th>Engine</th>
                             <th>Power</th>
                             <th>Top Speed</th>
+                            <th>0-100 km/h</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>Zeus</td>
                             <td>V8 Hybrid</td>
-                            <td>690 CV</td>
+                            <td>690 HP</td>
                             <td>355 km/h</td>
+                            <td>3.2 s</td>
                         </tr>
                         <tr>
                             <td>Cronos</td>
                             <td>V8 Biturbo</td>
-                            <td>1020 CV</td>
+                            <td>1020 HP</td>
                             <td>377 km/h</td>
+                            <td>2.8 s</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </section>
 
-        <div class="salto-mediano"></div>
-
         <section id="about-us" class="seccion-about-us">
             <div class="logo-inferior">
-                <img src="assets/img/logoNegro.png" alt="Logo" class="imagen-logo">
-                <img src="assets/img/letteringNegro.png" alt="Letras" class="imagen-letras">
+                <img src="assets/img/logoNegro.png" alt="Pegasso Dark Logo" class="imagen-logo">
+                <img src="assets/img/letteringNegro.png" alt="Pegasso Text" class="imagen-letras">
             </div>
 
-            <img src="assets/img/workers.webp" alt="Trabajadores" class="foto-izquierda">
+            <img src="assets/img/workers.webp" alt="Our Engineering Team" class="foto-izquierda">
 
             <div class="contenedor-derecho-info">
                 <div class="bloque-titulo">
@@ -138,35 +140,34 @@
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
                     nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
-                    qui officia deserunt mollit anim id est laborum
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                    culpa qui officia deserunt mollit anim id est laborum.
                 </p>
             </div>
 
-            <img src="assets/img/viena.webp" alt="Escudo" class="foto-escudo">
+            <img src="assets/img/viena.webp" alt="Viena Official Seal" class="foto-escudo">
         </section>
 
         <section id="gallery" class="seccion-galeria">
             <h2 class="titulo-seccion">COLLECTION</h2>
             <div class="mosaico">
                 <figure class="foto item-1">
-                    <video controls class="video-galeria">
+                    <video controls class="video-galeria" poster="assets/img/poster-video.jpg">
                         <source src="assets/video/promo-pegasso.mp4" type="video/mp4">
                     </video>
                 </figure>
                 <figure class="foto item-2">
-                    <img src="assets/img/car-upfront.webp" alt="Pegasso front">
+                    <img src="assets/img/car-upfront.webp" alt="Pegasso Front Design">
                 </figure>
                 <figure class="foto item-3">
-                    <img src="assets/img/car-side.webp" alt="Pegasso side">
+                    <img src="assets/img/car-side.webp" alt="Aerodynamic Side Profile">
                 </figure>
                 <figure class="foto item-4">
-                    <img src="assets/img/car-back.webp" alt="Pegasso back">
+                    <img src="assets/img/car-back.webp" alt="Rear Diffuser and Design">
                 </figure>
             </div>
         </section>
     </main>
-
     <script src="js/close-menu.js"></script>
 </body>
 </html>
