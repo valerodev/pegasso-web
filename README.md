@@ -4,7 +4,7 @@ This project was developed as part of my first year **Web Application Developmen
 
 <img src="assets/video/preview.gif" alt="Project Preview" width="100%">
 
-<img src="assets/img/galaxy-show.webp" alt="Project View On a Galaxy" width="100%">
+<img src="assets/img/galaxy-show.webp" alt="Project View On a Galaxy" width="10%">
 
 
 ## 💎 Technical Breakdown (What I applied)
