@@ -1,19 +1,25 @@
-
-
 <h1 align="center">🏎️ Pegasso High Luxury Car Web</h1>
 
 <p align="center">
   This project was developed as part of my first year <b>Web Application Development Degree (DAW)</b> studies. All the interface design, layout structure, and visual composition were created by me from scratch.
 </p>
 
-<p align="center">
-  <img src="assets/video/preview.gif" alt="Project Preview" width="90%">
-</p>
+<table border="0" align="center">
+  <tr>
+    <td width="75%" align="center" valign="middle">
+      <img src="assets/video/preview.gif" alt="Desktop Preview" width="100%">
+    </td>
+    <td width="25%" align="center" valign="middle">
+      <img src="assets/video/galaxy-preview.gif" alt="Project View On a Galaxy" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><sub><i>Desktop Full Interface Analysis</i></sub></td>
+    <td align="center"><sub><i>Mobile Responsive Flow</i></sub></td>
+  </tr>
+</table>
 
-<p align="center">
-  <img src="assets/img/galaxy-show.webp" alt="Project View On a Galaxy" width="15%">
-</p>
-
+---
 
 ## 💎 Technical Breakdown (What I applied)
 
@@ -25,8 +31,8 @@
 
 ---
 
-### ⚠️
+### ⚠️ Credits & Disclaimer
 Most of the photographic assets and AI prompts used in this project are based on the **Czinger 21C** hypercar. This project is for educational and portfolio purposes only.
 
 ---
-Developed by **valerodev** | 2026
+<p align="center">Developed by <b>valerodev</b> | 2026</p>
