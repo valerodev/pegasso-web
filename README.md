@@ -1,10 +1,16 @@
-## 🏎️ Pegasso High Luxury Car Web
+<p align="center">
+  <img src="assets/img/galaxy-show.webp" alt="Project View On a Galaxy" width="15%">
+</p>
 
-This project was developed as part of my first year **Web Application Development Degree (DAW)** studies. All the interface design, layout structure, and visual composition were created by me from scratch, focusing on applying the technical concepts learned during the year.
+<h1 align="center">🏎️ Pegasso High Luxury Car Web</h1>
 
-<img src="assets/video/preview.gif" alt="Project Preview" width="100%">
+<p align="center">
+  This project was developed as part of my first year <b>Web Application Development Degree (DAW)</b> studies. All the interface design, layout structure, and visual composition were created by me from scratch.
+</p>
 
-<img src="assets/img/galaxy-show.webp" alt="Project View On a Galaxy" width="10%">
+<p align="center">
+  <img src="assets/video/preview.gif" alt="Project Preview" width="90%">
+</p>
 
 
 ## 💎 Technical Breakdown (What I applied)
