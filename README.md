@@ -12,10 +12,6 @@
       <img src="assets/video/galaxy-preview.gif" alt="Project View On a Galaxy" width="100%">
     </td>
   </tr>
-  <tr>
-    <td align="center"><sub><i>Desktop Full Interface Analysis</i></sub></td>
-    <td align="center"><sub><i>Mobile Responsive Flow</i></sub></td>
-  </tr>
 </table>
 
 ---
