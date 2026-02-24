@@ -2,7 +2,6 @@
 
 <p align="center">
   This project was developed as part of my first year <b>Web Application Development Degree (DAW)</b> studies. All the interface design, layout structure, and visual composition were created by me from scratch.
-  <a href="(https://valerodev.github.io/pegasso-web/)" target="_blank"><b>🔗 Click here to explore the Pegasso Experience</b></a>
 </p>
 
 <table border="0" align="center">
@@ -16,6 +15,9 @@
   </tr>
 </table>
 
+<p align="center">
+  <a href="https://valerodev.github.io/pegasso-web/" target="_blank"><b>🔗 Click here to explore the Pegasso Experience</b></a>
+</p>
 ---
 
 ## 💎 Technical Breakdown (What I applied)
