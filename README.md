@@ -4,6 +4,9 @@ This project was developed as part of my first year **Web Application Developmen
 
 <img src="assets/video/preview.gif" alt="Project Preview" width="100%">
 
+<img src="assets/img/galaxy-show.webp" alt="Project View On a Galaxy" width="100%">
+
+
 ## 💎 Technical Breakdown (What I applied)
 
 * **CSS-Based Menu:** I designed a functional menu using CSS `checkbox` logic as a core. While the foundation is pure CSS, I integrated a small amount of **JavaScript** to handle menu closing more smoothly, learning how to combine both tools effectively.
