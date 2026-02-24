@@ -1,49 +1,24 @@
 @media screen and (max-width: 900px) {
-    html, body {
-        overflow-x: hidden;
-        width: 100%;
-    }
-
     .contenedor-marca {
-        top: 5%;
+        top: 3%;
+        left: 5%;
     }
 
-    .hero img {
-        content: url('/assets/img/hero-mobile.jpg');
-        object-fit: cover;
-        height: 100%; 
+    .hero {
+        height: 100vh; 
     }
-
-    .segundoHero {
-        display: none;
-    }
-
-    .salto-mediano {
-        display: none;
-    }
-
-    .contenedor-derecho-info {
-        width: 100%;
-        padding: 20px;
-    }
-
-    .foto-escudo {
-        display: none;
-    }
-
-    .seccion-about-us .contenedor-derecho-info {
-        width: 90%;
-        align-items: center;
-    }
-
+    
+    .segundoHero, 
+    .salto-mediano,
+    .foto-escudo,
     .logo-inferior {
         display: none;
     }
 
     .titulo-grande {
-        align-items: center;
+        font-size: 2.5rem;
         text-align: center;
-        font-size: 42px;
+        align-items: center;
     }
 
     .pos-1, .pos-2, .pos-3 {
@@ -52,10 +27,25 @@
     }
 
     .contenedor-derecho-info .parrafo {
-        padding: 15px 0;
-        font-size: 17px;
-        text-align: justify;
-        line-height: 1.6;
+        padding: 20px;
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .contenedor-tabla {
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 20px;
+    }
+
+    .tabla-tecnica {
+        min-width: 600px;
+    }
+
+    .tabla-tecnica td {
+        padding: 15px 10px;
+        font-size: 14px;
     }
 
     .pantalla-menu {
@@ -69,47 +59,26 @@
     }
 
     .cuadrado-menu {
-        width: 100%;
-        justify-content: center;
         gap: 20px;
     }
 
     .item-menu {
-        font-size: 40px;
-        text-align: center;
+        font-size: 2rem;
     }
 
     .aside-menu {
         position: static;
         width: 100%;
         text-align: center;
-        margin-top: 40px;
-    }
-
-    .aside-menu a {
-        text-align: center;
-        margin-bottom: 10px;
-    }
-
-    .titulo-aside {
-        text-align: center;
-    }
-
-    .bloque-cartas {
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-        padding: 20px;
+        margin-top: 30px;
     }
 
     .seccion-galeria .mosaico {
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
+        grid-template-columns: 1fr;
+        padding: 0;
     }
 
-    .mosaico .foto {
-        width: 100%;
-        height: 250px;
+    .foto {
+        height: 300px;
     }
 }
