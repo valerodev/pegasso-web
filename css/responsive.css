@@ -8,43 +8,27 @@
         top: 5%;
     }
 
-    .hero {
-        height: auto; 
-    }
-
     .hero img {
-        height: 60vh;
-        min-height: 400px;
+        content: url('/assets/img/hero-mobile.jpg');
+        object-fit: cover;
+        height: 100%; 
     }
 
-    .segundoHero img {
-        object-position: 42%;
+    .segundoHero {
+        display: none;
     }
 
     .salto-mediano {
         display: none;
     }
 
-    .seccion-about-us {
-        display: flex;
-        flex-direction: column;
-        height: auto;
-        min-height: auto; 
-        align-items: center;
-        background-color: var(--accent-bg);
-        padding: 40px 20px;
-    }
-
-    .seccion-about-us .foto-izquierda {
+    .contenedor-derecho-info {
         width: 100%;
-        max-width: 450px;
-        margin-bottom: 30px;
+        padding: 20px;
     }
 
     .foto-escudo {
-        position: static;
-        width: 60px;
-        margin: 0 auto 20px auto;
+        display: none;
     }
 
     .seccion-about-us .contenedor-derecho-info {
