@@ -29,24 +29,18 @@ body {
     left: 7%;
     display: flex;
     align-items: center;
-    z-index: 10;
+    z-index: 100;
 }
 
-.imagen-logo {
+.imagen-logo, .imagen-letras {
     width: 60px;
     height: auto;
     object-fit: contain;
 }
 
-.imagen-letras {
-    width: 100px;
-    height: auto;
-    object-fit: contain;
-}
+.imagen-letras { width: 100px; }
 
-#control-menu {
-    display: none;
-}
+#control-menu { display: none; }
 
 .boton-hamburguesa {
     position: fixed;
@@ -65,7 +59,6 @@ body {
 }
 
 .linea {
-    width: 100%;
     height: 2px;
     background-color: #ffffff;
     transition: 0.3s ease;
@@ -81,7 +74,7 @@ body {
 
 .pantalla-menu {
     position: fixed;
-    inset: 0;
+    top: 0; left: 0; right: 0; bottom: 0;
     background-color: var(--menu-overlay);
     display: flex;
     align-items: center;
@@ -90,7 +83,7 @@ body {
     transform-origin: top left;
     border-bottom-right-radius: 70%;
     visibility: hidden;
-    transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.5s ease, visibility 0.75s ease, border-radius 1s ease;
     z-index: 1000;
 }
 
@@ -175,7 +168,6 @@ body {
 
 .seccion-especificaciones {
     padding: 60px var(--spacing);
-    background-color: #000;
 }
 
 .tabla-tecnica {
@@ -191,7 +183,6 @@ body {
     padding: 15px;
     color: rgba(255, 255, 255, 0.5);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    text-align: center;
 }
 
 .tabla-tecnica td {
@@ -276,7 +267,6 @@ body {
     align-items: center;
     gap: var(--spacing);
     padding: var(--spacing);
-    box-sizing: border-box;
 }
 
 .logo-inferior {
@@ -318,7 +308,6 @@ body {
     position: absolute;
     top: 30px;
     right: 40px;
-    z-index: 10;
     opacity: 0.8;
     filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2));
     pointer-events: none;
@@ -326,7 +315,6 @@ body {
 
 .seccion-galeria {
     padding: var(--spacing);
-    background-color: var(--bg-primary);
 }
 
 .titulo-seccion {
@@ -347,15 +335,12 @@ body {
     margin: 0;
     overflow: hidden;
     height: 450px;
-    background-color: var(--bg-secondary);
 }
 
-.foto img,.video-galeria {
+.foto img, .video-galeria {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: block;
-
 }
 
 .foto img {
