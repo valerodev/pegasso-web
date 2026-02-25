@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Pegasso Beyond the Line</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+</head>
+
+<body>
+    <header id="home" class="cabecera">
+        <a href="index.html" class="enlace-marca">
+            <div class="contenedor-marca">
+                <img src="assets/img/logo.png" alt="Pegasso Logo" class="imagen-logo">
+                <img src="assets/img/lettering.png" alt="Pegasso Lettering" class="imagen-letras">
+            </div>
+        </a>
+
+        <input type="checkbox" id="control-menu">
+        <label for="control-menu" class="boton-hamburguesa">
+            <div class="barras">
+                <span class="linea arriba"></span>
+                <span class="linea abajo"></span>
+            </div>
+        </label>
+
+        <nav class="pantalla-menu">
+            <div class="contenedor-menu-total">
+                <div class="cuadrado-menu">
+                    <a href="index.html" class="item-menu">HOME</a>
+                    <a href="index.html#technology" class="item-menu">TECHNOLOGY</a>
+                    <a href="index.html#about-us" class="item-menu">ABOUT US</a>
+                    <a href="index.html#gallery" class="item-menu">COLLECTION</a>
+                </div>
+
+                <aside class="aside-menu">
+                    <p class="titulo-aside">MORE</p>
+                    <a href="news.html">News & Press</a>
+                    <a href="who.html">Who we are</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="careers.html">Work with us</a>
+                </aside>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-contacto">
+        <section class="hero-contacto degradado-final">
+            <h1 class="titulo-grande">CONTACT</h1>
+            <p class="subtitulo">The other side of the line</p>
+        </section>
+
+        <div class="contenedor-contacto-grid">
+            
+            <section class="info-corporativa">
+                <div class="bloque-info">
+                    <h2>Our Headquarters</h2>
+                    <p>Pegasso Automotive</p>
+                    <p>Karl-Tornay-Gasse 6-16</p>
+                    <p>1230 Wien, Austria</p>
+                </div>
+
+                <div class="bloque-info">
+                    <h2>Direct Contact</h2>
+                    <p><strong>Phone:</strong> +34 910 000 000</p>
+                    <p><strong>Email:</strong> info@pegasso.luxury</p>
+                </div>
+
+                <div class="mapa-localizacion">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.531238612152!2d16.3298642!3d48.1384024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476da9ae66292393%3A0xc15664551d78216d!2sKarl-Tornay-Gasse%206-16%2C%201230%20Wien%2C%20Austria!5e0!3m2!1ses!2ses!4v1700000000000!5m2!1ses!2ses" 
+                        width="100%" 
+                        height="250" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </section>
+
+            <section class="formulario-solicitud">
+                <h2>Information Request</h2>
+                <form action="#" method="POST" class="form-standard">
+                    <div class="grupo-input">
+                        <label for="nombre">Full Name</label>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Your full name">
+                    </div>
+
+                    <div class="grupo-input">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="example@email.com">
+                    </div>
+
+                    <div class="grupo-input">
+                        <label for="tel">Phone Number</label>
+                        <input type="tel" id="tel" name="tel" pattern="[0-9]{9,15}" placeholder="+34 000 000 000">
+                    </div>
+
+                    <div class="grupo-input">
+                        <label for="comentarios">Comments</label>
+                        <textarea id="comentarios" name="comentarios" rows="6" required placeholder="Write your message here..."></textarea>
+                    </div>
+
+                    <button type="submit" class="boton-dorado">SEND REQUEST</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer class="pie-pagina">
+        <p>You can also visit us</p>
+        <div class="rrss">
+            <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/ig-icon.webp" alt="Instagram" width="24"></a>
+            <a href="https://x.com/" target="_blank"><img src="assets/img/x-icon.webp" alt="Twitter" width="24"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="assets/img/fb-icon.webp" alt="Facebook" width="24"></a>
+        </div>
+    </footer>
+
+    <script src="js/close-menu.js"></script>
+</body>
+</html>
