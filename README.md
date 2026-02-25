@@ -21,7 +21,6 @@
   </tr>
 </table>
 
-
 <p align="center">
   <a href="https://valerodev.github.io/pegasso-web/" target="_blank">
     <img src="https://img.shields.io/badge/LIVE_DEMO-Visit_Pegasso_Experience-gold?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Live Demo">
