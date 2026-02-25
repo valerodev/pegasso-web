@@ -4,19 +4,28 @@
   This project was developed as part of my first year <b>Web Application Development Degree (DAW)</b> studies. All the interface design, layout structure, and visual composition were created by me from scratch.
 </p>
 
-      
-
-https://github.com/user-attachments/assets/07d9cbce-45bc-4607-81d0-900875d76ff2
-
-
-[preview-iphone.webm](https://github.com/user-attachments/assets/773c1552-b49d-4be6-8994-72d4afaa1e51)
+<table border="0" align="center">
+  <tr>
+    <td width="75%" align="center" valign="middle">
+      <video width="100%" autoplay loop muted playsinline>
+        <source src="https://github.com/user-attachments/assets/07d9cbce-45bc-4607-81d0-900875d76ff2" type="video/mp4">
+        Su navegador no soporta video.
+      </video>
+    </td>
+    <td width="25%" align="center" valign="middle">
+      <video width="100%" autoplay loop muted playsinline>
+        <source src="https://github.com/user-attachments/assets/773c1552-b49d-4be6-8994-72d4afaa1e51" type="video/webm">
+        Su navegador no soporta video.
+      </video>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <a href="https://valerodev.github.io/pegasso-web/" target="_blank">
     <img src="https://img.shields.io/badge/LIVE_DEMO-Visit_Pegasso_Experience-gold?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Live Demo">
   </a>
 </p>
-
 
 ## 💎 Technical Breakdown (What I applied)
 
