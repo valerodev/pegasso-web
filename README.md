@@ -21,6 +21,9 @@
   </tr>
 </table>
 
+<source src="https://github.com/user-attachments/assets/07d9cbce-45bc-4607-81d0-900875d76ff2" type="video/mp4">
+
+
 <p align="center">
   <a href="https://valerodev.github.io/pegasso-web/" target="_blank">
     <img src="https://img.shields.io/badge/LIVE_DEMO-Visit_Pegasso_Experience-gold?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Live Demo">
