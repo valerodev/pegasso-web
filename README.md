@@ -4,22 +4,8 @@
   This project was developed as part of my first year <b>Web Application Development Degree (DAW)</b> studies. All the interface design, layout structure, and visual composition were created by me from scratch.
 </p>
 
-<table border="0" align="center">
-  <tr>
-    <td width="75%" align="center" valign="middle">
-      <video width="100%" autoplay loop muted playsinline>
-        <source src="https://github.com/user-attachments/assets/b16c1bf7-c785-4cb8-ba74-4f30ccddecfa" type="video/mp4">
-        Su navegador no soporta video.
-      </video>
-    </td>
-    <td width="25%" align="center" valign="middle">
-      <video width="100%" autoplay loop muted playsinline>
-        <source src="https://github.com/user-attachments/assets/773c1552-b49d-4be6-8994-72d4afaa1e51" type="video/webm">
-        Su navegador no soporta video.
-      </video>
-    </td>
-  </tr>
-</table>
+![](https://github.com/user-attachments/assets/07d9cbce-45bc-4607-81d0-900875d76ff2)
+![](https://github.com/user-attachments/assets/773c1552-b49d-4be6-8994-72d4afaa1e51)
 
 <p align="center">
   <a href="https://valerodev.github.io/pegasso-web/" target="_blank">
