@@ -7,10 +7,17 @@
 <table border="0" align="center">
   <tr>
     <td width="75%" align="center" valign="middle">
-      <img src="assets/video/preview.gif" alt="Desktop Preview" width="100%">
+      <video width="100%" autoplay loop muted playsinline>
+        <source src="assets/video/preview.mp4" type="video/mp4">
+        Su navegador no soporta video.
+      </video>
     </td>
     <td width="25%" align="center" valign="middle">
-      <img src="assets/video/galaxy-preview.gif" alt="Project View On a Galaxy" width="100%">
+      <video width="100%" autoplay loop muted playsinline title="Project View On a Galaxy">
+        <source src="assets/video/preview-iphone.webm" type="video/webm">
+        <source src="assets/video/preview-iphone.mp4" type="video/mp4">
+        Su navegador no soporta video.
+      </video>
     </td>
   </tr>
 </table>
