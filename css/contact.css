@@ -1,0 +1,142 @@
+.main-contacto {
+    padding-top: 5vh;
+}
+
+.hero-contacto {
+    text-align: center;
+    padding: var(--spacing) 0;
+}
+
+.hero-contacto .subtitulo {
+    color: var(--text-muted);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    margin-top: -10px;
+}
+
+.contenedor-contacto-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    padding: var(--spacing);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.info-corporativa {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.bloque-info h2 {
+    font-family: var(--font-header);
+    font-size: 1.8rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.221);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.bloque-info p {
+    color: var(--text-muted);
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+.mapa-localizacion {
+    filter: grayscale(100%) invert(90%);
+    border: 1px solid rgba(255, 255, 255, 0.334);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.formulario-solicitud {
+    background: rgba(255, 255, 255, 0.078);
+    padding: 40px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.formulario-solicitud h2 {
+    font-family: var(--font-header);
+    margin-bottom: 30px;
+}
+
+.grupo-input {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.grupo-input label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+}
+
+.grupo-input input, 
+.grupo-input textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 12px 0;
+    font-family: var(--font-base);
+    font-size: 1rem;
+    transition: border-color 0.4s ease;
+}
+
+.grupo-input input:focus, 
+.grupo-input textarea:focus {
+    outline: none;
+    border-bottom-color: white;
+}
+
+.boton-dorado {
+    background: transparent;
+    border: 1px solid #c5a059;
+    color: #c5a059;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.boton-dorado:hover {
+    background: #c5a059;
+    color: black;
+    box-shadow: 0 0 20px rgba(197, 160, 89, 0.3);
+}
+
+.pie-pagina {
+    text-align: center;
+    padding: 60px var(--spacing);
+    background-color: var(--bg-primary);
+    border-top: 1px solid rgba(255, 0, 0, 0.05);
+}
+
+.rrss img {
+    width: 24px;
+    margin: 0 15px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.rrss img:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width: 900px) {
+
+.contenedor-marca {
+    display: none;  
+}
+}
