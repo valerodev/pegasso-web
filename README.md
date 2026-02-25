@@ -4,8 +4,7 @@
   This project was developed as part of my first year <b>Web Application Development Degree (DAW)</b> studies. All the interface design, layout structure, and visual composition were created by me from scratch.
 </p>
 
-[video de desktop](https://github.com/user-attachments/assets/07d9cbce-45bc-4607-81d0-900875d76ff2)
-[video de movil](https://github.com/user-attachments/assets/773c1552-b49d-4be6-8994-72d4afaa1e51)
+(https://github.com/user-attachments/assets/773c1552-b49d-4be6-8994-72d4afaa1e51)
 
 <p align="center">
   <a href="https://valerodev.github.io/pegasso-web/" target="_blank">
