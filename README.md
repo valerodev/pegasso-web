@@ -8,7 +8,7 @@
   <tr>
     <td width="75%" align="center" valign="middle">
       <video width="100%" autoplay loop muted playsinline>
-        <source src="https://github.com/user-attachments/assets/07d9cbce-45bc-4607-81d0-900875d76ff2" type="video/mp4">
+        <source src="https://github.com/user-attachments/assets/b16c1bf7-c785-4cb8-ba74-4f30ccddecfa" type="video/mp4">
         Su navegador no soporta video.
       </video>
     </td>
@@ -20,8 +20,6 @@
     </td>
   </tr>
 </table>
-
-<source src="https://github.com/user-attachments/assets/07d9cbce-45bc-4607-81d0-900875d76ff2" type="video/mp4">
 
 
 <p align="center">
