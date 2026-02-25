@@ -4,8 +4,20 @@
   This project was developed as part of my first year <b>Web Application Development Degree (DAW)</b> studies. All the interface design, layout structure, and visual composition were created by me from scratch.
 </p>
 
-(https://github.com/user-attachments/assets/773c1552-b49d-4be6-8994-72d4afaa1e51)
-
+<table border="0" align="center">
+  <tr>
+    <td width="75%" align="center">
+      <video width="100%" autoplay loop muted playsinline>
+        <source src="https://raw.githubusercontent.com/valerodev/pegasso-web/main/assets/video/preview.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td width="25%" align="center">
+      <video width="100%" autoplay loop muted playsinline>
+        <source src="https://raw.githubusercontent.com/valerodev/pegasso-web/main/assets/video/preview-iphone.webm" type="video/webm">
+      </video>
+    </td>
+  </tr>
+</table>
 <p align="center">
   <a href="https://valerodev.github.io/pegasso-web/" target="_blank">
     <img src="https://img.shields.io/badge/LIVE_DEMO-Visit_Pegasso_Experience-gold?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Live Demo">
