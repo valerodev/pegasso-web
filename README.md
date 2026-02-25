@@ -13,9 +13,8 @@
       </video>
     </td>
     <td width="25%" align="center" valign="middle">
-      <video width="100%" autoplay loop muted playsinline title="Project View On a Galaxy">
+      <video width="100%" autoplay loop muted playsinline title="Project View On Iphone">
         <source src="assets/video/preview-iphone.webm" type="video/webm">
-        <source src="assets/video/preview-iphone.mp4" type="video/mp4">
         Su navegador no soporta video.
       </video>
     </td>
