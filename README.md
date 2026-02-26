@@ -9,11 +9,8 @@
     <td width="50%" align="center" valign="middle">
       <img src="https://raw.githubusercontent.com/valerodev/pegasso-web/main/assets/video/preview.gif" width="100%" alt="Pegasso Web Desktop Preview">
     </td>
-    <td width="22%" align="center" valign="middle">
+    <td width="%" align="center" valign="middle">
       <img src="https://raw.githubusercontent.com/valerodev/pegasso-web/main/assets/video/preview-iphone.gif" width="100%" alt="Pegasso Web Mobile Preview">
-    </td>
-    <td width="28%" align="center" valign="middle">
-      <img src="https://raw.githubusercontent.com/valerodev/pegasso-web/main/assets/img/ligthouse-report.webp" width="100%" alt="Lighthouse Perfect Score">
     </td>
   </tr>
 </table>
