@@ -22,7 +22,7 @@
 </p>
 
 <h3 align="center">📊 Lighthouse Performance Report</h3><p align="center">
-  <img src="https://raw.githubusercontent.com/valerodev/pegasso-web/main/assets/img/ligthouse-report.webp" width="30%" alt="Lighthouse Perfect Score 100/100">
+  <img src="https://raw.githubusercontent.com/valerodev/pegasso-web/main/assets/img/ligthouse-report.webp" width="50%" alt="Lighthouse Perfect Score 100/100">
 </p>
 
 ## 💎 Technical Breakdown (What I applied)
