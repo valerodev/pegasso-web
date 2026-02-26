@@ -6,18 +6,15 @@
 
 <table border="0" align="center">
   <tr>
-    <td width="75%" align="center">
-      <video width="100%" autoplay loop muted playsinline>
-        <source src="https://raw.githubusercontent.com/valerodev/pegasso-web/main/assets/video/preview.mp4" type="video/mp4">
-      </video>
+    <td width="70%" align="center" valign="middle">
+      <img src="https://raw.githubusercontent.com/valerodev/pegasso-web/main/assets/video/preview.gif" width="100%" alt="Pegasso Web Desktop Preview">
     </td>
-    <td width="25%" align="center">
-      <video width="100%" autoplay loop muted playsinline>
-        <source src="https://raw.githubusercontent.com/valerodev/pegasso-web/main/assets/video/preview-iphone.webm" type="video/webm">
-      </video>
+    <td width="30%" align="center" valign="middle">
+      <img src="https://raw.githubusercontent.com/valerodev/pegasso-web/main/assets/video/preview-iphone.gif" width="100%" alt="Pegasso Web Mobile Preview">
     </td>
   </tr>
 </table>
+
 <p align="center">
   <a href="https://valerodev.github.io/pegasso-web/" target="_blank">
     <img src="https://img.shields.io/badge/LIVE_DEMO-Visit_Pegasso_Experience-gold?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Live Demo">
