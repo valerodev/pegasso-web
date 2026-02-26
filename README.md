@@ -6,10 +6,10 @@
 
 <table border="0" align="center">
   <tr>
-    <td width="50%" align="center" valign="middle">
+    <td width="75%" align="center" valign="middle">
       <img src="https://raw.githubusercontent.com/valerodev/pegasso-web/main/assets/video/preview.gif" width="100%" alt="Pegasso Web Desktop Preview">
     </td>
-    <td width="%" align="center" valign="middle">
+    <td width="25%" align="center" valign="middle">
       <img src="https://raw.githubusercontent.com/valerodev/pegasso-web/main/assets/video/preview-iphone.gif" width="100%" alt="Pegasso Web Mobile Preview">
     </td>
   </tr>
