@@ -21,6 +21,18 @@
   </a>
 </p>
 
+### 📊 Lighthouse Performance Report
+<p align="center">
+  <img src="https://raw.githubusercontent.com/valerodev/pegasso-web/main/assets/img/ligthouse-report.webp" width="100%" alt="Lighthouse Perfect Score 100/100">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Performance-100-brightgreen?style=flat-square" alt="Performance 100">
+  <img src="https://img.shields.io/badge/Accessibility-100-brightgreen?style=flat-square" alt="Accessibility 100">
+  <img src="https://img.shields.io/badge/Best%20Practices-100-brightgreen?style=flat-square" alt="Best Practices 100">
+  <img src="https://img.shields.io/badge/SEO-100-brightgreen?style=flat-square" alt="SEO 100">
+</p>
+
 ## 💎 Technical Breakdown (What I applied)
 
 * **CSS-Based Menu:** I designed a functional menu using CSS `checkbox` logic as a core. While the foundation is pure CSS, I integrated a small amount of **JavaScript** to handle menu closing more smoothly, learning how to combine both tools effectively.
