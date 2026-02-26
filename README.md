@@ -6,11 +6,14 @@
 
 <table border="0" align="center">
   <tr>
-    <td width="70%" align="center" valign="middle">
+    <td width="50%" align="center" valign="middle">
       <img src="https://raw.githubusercontent.com/valerodev/pegasso-web/main/assets/video/preview.gif" width="100%" alt="Pegasso Web Desktop Preview">
     </td>
-    <td width="30%" align="center" valign="middle">
+    <td width="22%" align="center" valign="middle">
       <img src="https://raw.githubusercontent.com/valerodev/pegasso-web/main/assets/video/preview-iphone.gif" width="100%" alt="Pegasso Web Mobile Preview">
+    </td>
+    <td width="28%" align="center" valign="middle">
+      <img src="https://raw.githubusercontent.com/valerodev/pegasso-web/main/assets/img/ligthouse-report.webp" width="100%" alt="Lighthouse Perfect Score">
     </td>
   </tr>
 </table>
@@ -19,10 +22,6 @@
   <a href="https://valerodev.github.io/pegasso-web/" target="_blank">
     <img src="https://img.shields.io/badge/LIVE_DEMO-Visit_Pegasso_Experience-gold?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Live Demo">
   </a>
-</p>
-
-<h3 align="center">📊 Lighthouse Performance Report</h3><p align="center">
-  <img src="https://raw.githubusercontent.com/valerodev/pegasso-web/main/assets/img/ligthouse-report.webp" width="50%" alt="Lighthouse Perfect Score 100/100">
 </p>
 
 ## 💎 Technical Breakdown (What I applied)
