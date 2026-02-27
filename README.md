@@ -4,9 +4,9 @@
   This project was developed as part of my first year <b>Web Application Development Degree (DAW)</b> studies. All the interface design, layout structure, and visual composition were created by me from scratch.
 </p>
 
-<div style="text-align: center;">
-  <img src="assets/img/ligthouse-bar.webp" alt="Lighthouse Report Pegasso Web">
-</div>
+<p align="center">
+  <img src="assets/img/ligthouse-report.webp" alt="Lighthouse Report Pegasso Web" width="100%">
+</p>
 
 <table border="0" align="center">
   <tr>
