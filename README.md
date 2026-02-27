@@ -4,10 +4,6 @@
   This project was developed as part of my first year <b>Web Application Development Degree (DAW)</b> studies. All the interface design, layout structure, and visual composition were created by me from scratch.
 </p>
 
-<p align="center">
-  <img src="assets/img/ligthouse-bar.webp" alt="Lighthouse Report Pegasso Web" width="100%">
-</p>
-
 <table border="0" align="center">
   <tr>
     <td width="75%" align="center" valign="middle">
@@ -18,6 +14,10 @@
     </td>
   </tr>
 </table>
+
+<p align="center">
+  <img src="assets/img/ligthouse-bar.webp" alt="Lighthouse Report Pegasso Web" width="100%">
+</p>
 
 <p align="center">
   <a href="https://valerodev.github.io/pegasso-web/" target="_blank">
