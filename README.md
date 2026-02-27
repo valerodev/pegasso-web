@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/img/ligthouse-report.webp" alt="Lighthouse Report Pegasso Web" width="100%">
+  <img src="assets/img/ligthouse-bar.webp" alt="Lighthouse Report Pegasso Web" width="100%">
 </p>
 
 <table border="0" align="center">
