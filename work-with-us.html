@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be | Beyond the Line</title>
+    <meta name="description" content="Pegasso: Beyond the Line. Contact us for inquiries, information requests, or to connect with our team.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" type="image/png" href="assets/img/logo.webp">
+</head>
+
+<body>
+
+    <header id="home" class="cabecera">
+        <a href="index.html" class="enlace-marca">
+            <div class="contenedor-marca ocultar-responsive">
+                <img src="assets/img/logo.webp" alt="Pegasso Logo" class="imagen-logo">
+                <img src="assets/img/lettering.webp" alt="Pegasso Lettering" class="imagen-letras">
+            </div>
+        </a>
+
+        <input type="checkbox" id="control-menu">
+        <label for="control-menu" class="boton-hamburguesa">
+            <div class="barras">
+                <span class="linea arriba"></span>
+                <span class="linea abajo"></span>
+            </div>
+        </label>
+
+        <nav class="pantalla-menu">
+            <div class="contenedor-menu-total">
+                <div class="cuadrado-menu">
+                    <a href="index.html" class="item-menu">HOME</a>
+                    <a href="index.html#technology" class="item-menu">TECHNOLOGY</a>
+                    <a href="index.html#about-us" class="item-menu">ABOUT US</a>
+                    <a href="index.html#gallery" class="item-menu">COLLECTION</a>
+                </div>
+
+                <aside class="aside-menu">
+                    <p class="titulo-aside">MORE</p>
+                    <a href="who-we-are.html">Who we are</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="work-with-us.html">Work with us</a>
+                </aside>
+            </div>
+        </nav>
+    </header>
+
+<main class="main-contacto">
+    <section class="hero-contacto degradado-final">
+        <h1 class="titulo-grande">WORK WITH US</h1>
+        <p class="subtitulo">Join the line of the Pegasso team</p>
+    </section>
+
+    <div class="contenedor-contacto-grid">
+        <section class="formulario-solicitud">
+            <h2>Application Form</h2>
+            <form action="#" method="POST" class="form-standard">
+                
+                <fieldset class="bloque-formulario">
+                    <legend>Personal Details</legend>
+                    <div class="grid-form">
+                        <div class="grupo-input"><label>Name</label><input type="text" name="nombre" required></div>
+                        <div class="grupo-input"><label>Last Name</label><input type="text" name="apellidos" required></div>
+                        <div class="grupo-input"><label>ID / Passport</label><input type="text" name="dni" required pattern="[0-9]{8}[A-Z]"></div>
+                        <div class="grupo-input">
+                            <label>Gender</label>
+                            <select name="sexo">
+                                <option value="H">Male</option>
+                                <option value="M">Female</option>
+                                <option value="O">Other</option>
+                            </select>
+                        </div>
+                        <div class="grupo-input"><label>Date of Birth</label><input type="date" name="fecha_nac" required></div>
+                        <div class="grupo-input"><label>City</label><input type="text" name="ciudad" required></div>
+                        <div class="grupo-input"><label>Nationality</label><input type="text" name="nacionalidad" required></div>
+                        <div class="grupo-input"><label>Zip Code</label><input type="number" name="cp" required></div>
+                        <div class="grupo-input"><label>Phone</label><input type="tel" name="tel" required></div>
+                        <div class="grupo-input"><label>Email</label><input type="email" name="email" required></div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="bloque-formulario" style="margin-top: 20px;">
+                    <legend>Education</legend>
+                    <div class="grupo-input">
+                        <label>Degree / Qualification</label>
+                        <input type="text" name="titulacion" placeholder="Ex: Web Development Technician">
+                    </div>
+                    <div class="grid-form">
+                        <div class="grupo-input"><label>Start Year</label><input type="number" name="año_ini" min="1950" max="2026" placeholder="YYYY"></div>
+                        <div class="grupo-input"><label>End Year</label><input type="number" name="año_fin" min="1950" max="2026" placeholder="YYYY"></div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="bloque-formulario" style="margin-top: 20px;">
+                    <legend>Languages</legend>
+                    <div class="grupo-input" style="margin-bottom: 15px;">
+                        <label>Language</label>
+                        <input type="text" name="idioma_nombre" placeholder="Ex: English">
+                    </div>
+                    <div class="grid-idiomas">
+                        <div class="grupo-input">
+                            <label>Spoken</label>
+                            <select name="hablado">
+                                <option value="E">Excellent</option><option value="G">Good</option><option value="F">Fair</option><option value="N">None</option> </select>
+                        </div>
+                        <div class="grupo-input">
+                            <label>Reading</label>
+                            <select name="leido">
+                                <option value="E">Excellent</option><option value="G">Good</option><option value="F">Fair</option><option value="N">None</option>
+                            </select>
+                        </div>
+                        <div class="grupo-input">
+                            <label>Writing</label>
+                            <select name="escrito">
+                                <option value="E">Excellent</option><option value="G">Good</option><option value="F">Fair</option><option value="N">None</option>
+                            </select>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <button type="submit" class="boton-dorado">SUBMIT APPLICATION</button>
+            </form>
+        </section>
+    </div>
+</main>
+  
+    <footer class="pie-pagina">
+        <p>You can also visit us</p>
+        <div class="rrss">
+            <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/ig-icon.webp" alt="Instagram" width="24"></a>
+            <a href="https://x.com/" target="_blank"><img src="assets/img/x-icon.webp" alt="Twitter" width="24"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="assets/img/fb-icon.webp" alt="Facebook" width="24"></a>
+        </div>
+    </footer>
+
+    <script src="js/close-menu.js"></script>
+</body>
+</html>

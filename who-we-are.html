@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who We Are | Pegasso</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" type="image/png" href="assets/img/logo.webp">
+</head>
+<body>
+
+        <header id="home" class="cabecera">
+        <a href="index.html" class="enlace-marca">
+            <div class="contenedor-marca ocultar-responsive">
+                <img src="assets/img/logo.webp" alt="Pegasso Logo" class="imagen-logo">
+                <img src="assets/img/lettering.webp" alt="Pegasso Lettering" class="imagen-letras">
+            </div>
+        </a>
+
+        <input type="checkbox" id="control-menu">
+        <label for="control-menu" class="boton-hamburguesa">
+            <div class="barras">
+                <span class="linea arriba"></span>
+                <span class="linea abajo"></span>
+            </div>
+        </label>
+
+        <nav class="pantalla-menu">
+            <div class="contenedor-menu-total">
+                <div class="cuadrado-menu">
+                    <a href="index.html" class="item-menu">HOME</a>
+                    <a href="index.html#technology" class="item-menu">TECHNOLOGY</a>
+                    <a href="index.html#about-us" class="item-menu">ABOUT US</a>
+                    <a href="index.html#gallery" class="item-menu">COLLECTION</a>
+                </div>
+
+                <aside class="aside-menu">
+                    <p class="titulo-aside">MORE</p>
+                    <a href="who-we-are.html">Who we are</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="work-with-us.html">Work with us</a>
+                </aside>
+            </div>
+        </nav>
+    </header>
+
+
+<section class="seccion-equipo-slider">
+    <h2 class="titulo-seccion">Our Team</h2>
+    <div class="slider-wrapper"> 
+        
+        <div class="slider">
+            <img id="slide-1" src="assets/img/team.webp" alt="Pegasso Team" />
+            <img id="slide-2" src="assets/img/engineers.webp" alt="Engineers working" />
+            <video id="slide-3" autoplay muted loop playsinline>
+                <source src="assets/video/corporative.mp4" type="video/mp4">
+                Tu navegador no soporta videos.
+            </video>
+        </div>
+        <div class="slider-nav">
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+        </div>
+    </div> </section>
+
+
+
+    <footer class="pie-pagina">
+        <p>You can also visit us</p>
+        <div class="rrss">
+            <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/ig-icon.webp" alt="Instagram" width="24"></a>
+            <a href="https://x.com/" target="_blank"><img src="assets/img/x-icon.webp" alt="Twitter" width="24"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="assets/img/fb-icon.webp" alt="Facebook" width="24"></a>
+        </div>
+    </footer>
+
+    <script src="js/close-menu.js"></script>
+</body>
+</html>

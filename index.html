@@ -40,10 +40,9 @@
 
                 <aside class="aside-menu">
                     <p class="titulo-aside">MORE</p>
-                    <a href="#news">News & Press</a>
-                    <a href="#who-we-are">Who we are</a>
+                    <a href="who-we-are.html">Who we are</a>
                     <a href="contact.html">Contact</a>
-                    <a href="#careers">Work with us</a>
+                    <a href="work-with-us.html">Work with us</a>
                 </aside>
             </div>
         </nav>
@@ -149,26 +148,43 @@
             <img src="assets/img/viena.webp" alt="Viena Official Seal" class="foto-escudo">
         </section>
 
-        <section id="gallery" class="seccion-galeria">
-            <h2 class="titulo-seccion">COLLECTION</h2>
-            <div class="mosaico">
-                <figure class="foto item-1">
-                    <video controls class="video-galeria">
-                        <source src="assets/video/promo-pegasso.mp4" type="video/mp4">
-                    </video>
-                </figure>
-                <figure class="foto item-2">
-                    <img src="assets/img/car-upfront.webp" alt="Pegasso Front Design">
-                </figure>
-                <figure class="foto item-3">
-                    <img src="assets/img/car-side.webp" alt="Aerodynamic Side Profile">
-                </figure>
-                <figure class="foto item-4">
-                    <img src="assets/img/car-back.webp" alt="Rear Diffuser and Design">
-                </figure>
-            </div>
-        </section>
+    
+    
+    <section id="gallery" class="seccion-equipo-slider">
+    <h2 class="titulo-seccion">COLLECTION</h2>
+    
+    <div class="slider-wrapper"> 
+        <div class="slider slider-main">
+            <img id="slide-1" src="assets/img/car-side.webp" alt="Aerodynamic Side Profile" />
+            
+            <img id="slide-2" src="assets/img/car-back.webp" alt="Rear Diffuser and Design" />
+            
+            <video id="slide-3" autoplay muted loop playsinline>
+                <source src="assets/video/promo.pegasso.mp4" type="video/mp4" alt="Car driving">
+                Tu navegador no soporta videos.
+            </video>
+        </div>
+
+        <div class="slider-nav">
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+        </div>
+    </div> 
+    </section>
     </main>
+
+    <footer class="pie-pagina">
+        <p>You can also visit us</p>
+        <div class="rrss">
+            <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/ig-icon.webp" alt="Instagram" width="24"></a>
+            <a href="https://x.com/" target="_blank"><img src="assets/img/x-icon.webp" alt="Twitter" width="24"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="assets/img/fb-icon.webp" alt="Facebook" width="24"></a>
+        </div>
+    </footer>
+
     <script src="js/close-menu.js"></script>
 </body>
 </html>
+
+

@@ -35,7 +35,7 @@
     .contenedor-tabla {
         width: 100%;
         overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
+        -webkit-overflow-scrolling: touch; /*Esto es para que el scroll de la tabla no se quede pillado*/
         padding-bottom: 20px;
     }
 
@@ -54,7 +54,7 @@
     }
 
     .contenedor-menu-total {
-        flex-direction: column;
+        flex-direction: column; /*flex a a scroll*/
         text-align: center;
     }
 
@@ -70,7 +70,6 @@
         position: static;
         width: 100%;
         text-align: center;
-        margin-top: 30px;
     }
 
     .seccion-galeria .mosaico {
@@ -81,4 +80,21 @@
     .foto {
         height: 300px;
     }
+
+    /*seccion de contacto y de work-with-us*/
+
+    .contenedor-marca.ocultar-responsive {
+        display: none;
+    }
+
+    .slider {
+        aspect-ratio: 4/3;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .slider-nav {
+        bottom: -30px; 
+    }
+
 }

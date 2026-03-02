@@ -57,10 +57,9 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
-
 .linea {
     height: 2px;
-    background-color: #ffffff;
+    background-color: #cccccc;
     transition: 0.3s ease;
 }
 
@@ -158,9 +157,9 @@ body {
     object-fit: cover;
 }
 
-.degradado-final {
+.degradado-final {/*Es como el :after pero elimina pixeles en lugar de tapar*/
     mask-image: linear-gradient(black 85%, transparent);
-}
+}                                                                       
 
 .degradado-doble {
     mask-image: linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%);
@@ -351,4 +350,82 @@ body {
 .foto:hover img {
     filter: grayscale(0%);
     transform: scale(1.05);
+}
+
+.pie-pagina {
+    text-align: center;
+    padding: 60px var(--spacing);
+    background-color: var(--bg-primary);
+    border-top: 1px solid rgba(255, 0, 0, 0.05);
+}
+
+
+/*SLIDER*/
+
+.seccion-equipo-slider {
+    padding: var(--spacing);
+    background-color: var(--bg-primary);
+}
+
+.slider-wrapper {
+    position: relative;
+    align-self: auto;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.slider {
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(255, 200, 97, 0.481); 
+    border: 2px solid rgba(255, 175, 26, 0.534);
+    border-radius: 20px;
+    scrollbar-width: none; 
+}
+
+.slider.slider-main {
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(255, 42, 42, 0.232);
+    border: 2px solid rgba(255, 42, 42, 0.263);
+}
+
+.slider-main + .slider-nav a {
+    background-color: rgba(255, 42, 42, 0.5);
+}
+
+.slider::-webkit-scrollbar {
+    display: none;
+}
+
+.slider img, .slider video {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+    filter: grayscale(20%);
+}
+
+.slider-nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a {
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    background-color: #c5a059;
+    opacity: 0.5;
+    transition: all ease 250ms;
+}
+
+.slider-nav a:hover {
+    opacity: 1;
+    transform: scale(1.2);
 }

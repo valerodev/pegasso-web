@@ -1,11 +1,12 @@
-const enlacesNav = document.querySelectorAll('.item-menu');
-const checkboxMenu = document.querySelector('#control-menu');
+document.addEventListener('DOMContentLoaded', () => {
+    const enlaces = document.querySelectorAll('.item-menu, .aside-menu a');
+    const checkbox = document.getElementById('control-menu');
 
-enlacesNav.forEach(enlace => {
-    enlace.addEventListener('click', () => {
-        if (checkboxMenu) {
-            checkboxMenu.checked = false;
-        }
-        document.body.style.overflow = 'auto';
+    enlaces.forEach(enlace => {
+        enlace.addEventListener('click', (evento) => {
+            setTimeout(() => {
+                checkbox.checked = false;
+            }, 300); 
+        });
     });
 });
