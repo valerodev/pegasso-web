@@ -16,7 +16,7 @@
 </table>
 
 <p align="center" >
-   Lighthouse
+  $\color{red}{\text{Lighthouse Report}}$
   <img src="assets/img/ligthouse-bar.webp" alt="Lighthouse Report Pegasso Web" width="100%">
 </p>
 
