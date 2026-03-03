@@ -15,7 +15,7 @@
   </tr>
 </table>
 
-<p align="center">
+<p align="center" Lighthouse>
   <img src="assets/img/ligthouse-bar.webp" alt="Lighthouse Report Pegasso Web" width="100%">
 </p>
 
