@@ -16,7 +16,7 @@
 </table>
 
 <p align="center" >
-  $\color{green}{\text{Lighthouse Report}}$
+  ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
   <img src="assets/img/ligthouse-bar.webp" alt="Lighthouse Report Pegasso Web" width="100%">
 </p>
 
