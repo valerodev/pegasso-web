@@ -1,5 +1,5 @@
 <p align="right">
-  🛡️ <b>Language:</b> 
+  <b>Language:</b> 
   <b>English</b> | <a href="README.es.md">Español</a>
 </p>
 
