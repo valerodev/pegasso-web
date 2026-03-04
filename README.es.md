@@ -1,5 +1,5 @@
 <p align="right">
-  🛡️ <b>Idioma:</b> 
+   <b>Idioma:</b> 
   <a href="https://github.com/valerodev/pegasso-web">English</a> | <b>Español</b>
 </p>
 
