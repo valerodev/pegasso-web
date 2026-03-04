@@ -1,6 +1,6 @@
 <p align="right">
   🛡️ <b>Idioma:</b> 
-  <a href="[README.md](https://github.com/valerodev/pegasso-web)">English</a> | <b>Español</b>
+  <a href="(https://github.com/valerodev/pegasso-web)">English</a> | <b>Español</b>
 </p>
 
 <h1 align="center">🏎️ Pegasso High Luxury Car Web</h1>
