@@ -34,8 +34,8 @@
 ## 💎 Desglose Técnico (Lo que apliqué)
 
 * **Menú basado en CSS:** Diseñé un menú funcional utilizando la lógica de `checkbox` de CSS. Aunque la base es CSS puro, integré algo de **JavaScript** para manejar el cierre del menú de forma más fluida.
-* **Maquetación y Capas:** Practiqué el uso de capas con `z-index` y máscaras CSS (`mask-image`) para crear efectos de degradado directamente sobre las imágenes.
-* **Interacciones 3D:** Implementé transformaciones en el eje Z en las fichas de producto para entender cómo funcionan las perspectivas y los pseudoelementos.
+* **Maquetación y Capas:** Implementé el uso de capas con `z-index` y máscaras CSS (`mask-image`) para crear efectos de degradado directamente sobre las imágenes.
+* **Interacciones 3D:** Implementé transformaciones en el eje Z en las fichas de producto para emplear las perspectivas y los usos avanzados de los pseudoelementos.
 * **Fluidez:** Me enfoqué en transiciones ligeras usando `transform` y `scale` para asegurar un rendimiento óptimo procesado por GPU.
 * **HTML5 & CSS3:** Marcado limpio y semántico utilizando **Flexbox** y **CSS Grid**.
 
